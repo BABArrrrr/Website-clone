@@ -1,0 +1,179 @@
+body{
+    color: white;
+
+    padding: 0px;
+    margin: 0px;
+    /* background:url(gym-g134ebd051_1920.jpg) ;
+     
+    background-size: 1350px; */
+    
+    font-family: 'Secular One', sans-serif;
+    height:1400px;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background: url('./gym-g134ebd051_1920.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 1450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+.left{
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    /* border: 3px solid rgb(47, 0, 255); */
+    display: inline-block;
+    
+}
+.mid{
+    /* border: 3px solid rgb(35, 221, 29); */
+    display: block;
+    width: 38%;
+    margin: 20px auto;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 3px solid rgb(255, 251, 8); */
+    
+    
+    
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+  
+}
+.navbar li a{
+    color: rgb(245, 243, 240);
+    text-decoration: none;
+    padding: 25px 10px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    color: darkgrey;
+    text-decoration: underline;
+}
+.left img{
+    width: 110px;
+    filter: invert(70%);
+    border-radius: 20px;
+}
+.btn{
+    border: 0px;
+    background-color: rgb(73, 73, 73);
+    color: rgb(187, 179, 179);
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Secular One', sans-serif;
+}
+.btn:hover{
+    color: white;
+}
+.container{
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin: 70px;
+    padding: 100px 10px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+.container h1{
+    position: relative;
+    top: 0px;
+}
+.container p{
+    color: rgb(138, 134, 134);
+    font-size: 20px;
+}
+.btn a{
+    color: rgb(153, 146, 146);
+    text-decoration: none;
+    
+}
+.btn a:hover{
+    color: white;
+}
+
+
+
+@media only screen and (max-width:500px) {
+    body ::before{
+        width: 100%;
+        height: auto;
+    }
+    .container h1{
+        font-size: 5vh;
+    }
+    .container p{
+        font-size: 3vh;
+    }
+    .left img{
+        width: 40px;
+        height: auto;}
+    .right .btn{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 8px 5px;
+    }
+
+    .right .btn a {
+       font-size: 8px;
+       padding: 0px 0px;
+       align-items: center;
+       
+    }
+    .mid{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        
+        
+        
+        
+    }
+
+    .navbar li {
+        margin: 10px 0;
+      }
+
+    
+}
+@media only screen and (min-width:500px) and (max-width: 800px) {
+
+
+    
+}
+@media only screen and (min-width:800px) and (max-width:1200px) {
+
+
+
+    
+}
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+
+
+    
+}

@@ -1,0 +1,127 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./dumbbell-g38640ff9f_1920.jpg');
+    width: 1300px;
+    color: white;
+    
+}
+.left{
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    /* border: 3px solid rgb(47, 0, 255); */
+    display: inline-block;
+    
+}
+.mid{
+    /* border: 3px solid rgb(35, 221, 29); */
+    display: block;
+    width: 38%;
+    margin: 20px auto;
+    font-family: 'Secular One', sans-serif;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 3px solid rgb(255, 251, 8); */
+    
+    
+    
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+  
+}
+.navbar li a{
+    color: rgb(245, 243, 240);
+    text-decoration: none;
+    padding: 25px 10px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    color: darkgrey;
+    text-decoration: underline;
+}
+.left img{
+    width: 110px;
+    filter: invert(70%);
+    border-radius: 20px;
+}
+.btn:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+.right .btn a{
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+
+}
+.btn{
+    border: 0px;
+    background-color: rgb(73, 73, 73);
+    color: rgb(187, 179, 179);
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+.container{
+    /* border: 3px solid rgb(228, 222, 222); */
+    width: 100%;
+    margin-top: 40px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    
+    font-family: 'Secular One', sans-serif;
+
+
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    width: 100%    ;
+    justify-content: center;
+    padding-left: 50px;
+    
+    
+}
+
+h1{
+    color: rgb(128, 138, 138);
+    /* padding-left: 600px; */
+    text-align: center;
+ 
+    font-family: 'Secular One', sans-serif;
+}
+    
+
+
+
+.box{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 200px;
+    margin-top :10px; ;
+    
+}
+
+.container p{
+    color: rgb(126, 126, 126);
+}
